@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mySport</string>
+    <string name="app_displayname">HTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_version">3.3</string>
+    <string name="app_id">58</string>
+    <string name="cache_name">htv</string>
+    <string name="device">Android</string>
+    <string name="analytic">UA-47201987-1</string>
+    <string name="category_sport">5</string>
+    <string name="category_freetv">2</string>
+    <string name="category_audio">audio</string>
+    <string name="api_getlist">http://truesportapi.truelife.com/wrap_api2/tv/livetv?method=getlist&amp;format=json&amp;category=</string>
+    <string name="api_getinfo">http://truesportapi.truelife.com/wrap_api2/tv/livetvinfo?method=getinfo&amp;format=json&amp;content_id=</string>
+    <string name="api_getaudio">http://truesportapi.truelife.com/wrap_api/cms/content/listening_channel?</string>
+    <string name="category_sport_name">ช่องกีฬาทั้งหมด</string>
+    <string name="category_freetv_name">ฟรีทีวี</string>
+    <string name="category_audio_name">ข่าววิทยุ</string>
+    <string name="tab1">ช่องกีฬา</string>
+    <string name="tab2">สปอร์ตอัพเดท</string>
+    <string name="tab3">ผลการแข่งขัน</string>
+
+    <string-array name="tabArray">
+        <item>@string/tab1</item>
+        <item>@string/tab2</item>
+        <item>@string/tab3</item>
+    </string-array>
+
+    <!-- loadMore -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    <string name="default_fragment">Default</string>
+    <string name="animation_fragment">Animation</string>
+    <string name="footer">The Footer</string>
+    <string name="footer_fragment">Footer</string>
+
+    <!-- ScoreTab -->
+    <string-array name="tabScoreArray">
+        <item>@string/tabScore1</item>
+        <item>@string/tabScore2</item>
+        <item>@string/tabScore3</item>
+        <item>@string/tabScore4</item>
+        <item>@string/tabScore5</item>
+    </string-array>
+
+    <string name="tabScore1">พรีเมียร์ลีก</string>
+    <string name="tabScore2">ไทยพรีเมียร์ลีก</string>
+    <string name="tabScore3">บุนเดสลีก้า</string>
+    <string name="tabScore4">ลาลีก้า</string>
+    <string name="tabScore5">กัลโช่</string>
+    <string name="btnScoretab1">ผลการแข่งขัน</string>
+    <string name="btnScoretab2">ตารางคะแนน</string>
+    <string name="call_support_android">1331</string>
+    <string name="email_support">admin@truelife.com</string>
+    <string name="fobject_login_config">login.dat</string>
+    <string name="button_call_support">Call Support</string>
+    
+    <string name="stat">HSerie_Hsport%s_App_Android_Free_</string>
+    
+    <string name="codeHeader1"><![CDATA[<h><center><b><font size="5">]]></string>
+    <string name="codeHeader2"><![CDATA[</font><b><center><h>]]></string>
+    
+    <string name="cat_string">Category</string>
+    
+     <string-array name="CatDialogArray">
+        <item>@string/cat_Dialog1</item>
+        <item>@string/cat_Dialog2</item>
+        <item>@string/cat_Dialog3</item>
+    </string-array>
+    
+    <string name="cat_Dialog1">สปอร์ตอัพเดท</string>
+    <string name="cat_Dialog2">บทวิจารณ์</string>
+    <string name="cat_Dialog3">ไทยพรีเมียร์ลีก</string>
+    <string name="cat_Dialog4">สปอร์ตวาไรตี้</string>
+    <string name="cat_Dialog5">คลิปกีฬา</string>
+    <string name="cat_Dialog6">ช็อตเด็ดนักกีฬาดัง</string>
+    
+    <!-- Close Dialog -->
+    <string name="exit_alert">Do you want to exit?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    
+    <string name="cache_timeout">3600000</string>
+
+</resources>
